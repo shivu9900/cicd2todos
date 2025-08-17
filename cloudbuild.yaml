@@ -18,7 +18,7 @@ steps:
       - "--image"
       - "gcr.io/$PROJECT_ID/todo-app:$SHORT_SHA"
       - "--region"
-      - "us-central1"
+      - "asia-south1"
       - "--platform"
       - "managed"
       - "--add-cloudsql-instances"
