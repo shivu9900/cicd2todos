@@ -25,3 +25,6 @@ steps:
       - "DB_HOST=/cloudsql/$PROJECT_ID:us-central1:db1,DB_USER=app,DB_PASSWORD=Secret@123,DB_NAME=todos"
 images:
   - "gcr.io/$PROJECT_ID/todo-app:$SHORT_SHA"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
